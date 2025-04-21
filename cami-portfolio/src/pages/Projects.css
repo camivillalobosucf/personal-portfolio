@@ -12,7 +12,7 @@
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
     animation: colorShift 8s ease infinite;
-    margin-top: 0;
+    margin-top: -10px;
   }
   
   /* Animate between lilac and white */

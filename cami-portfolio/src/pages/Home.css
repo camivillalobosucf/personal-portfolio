@@ -11,7 +11,7 @@
   justify-content: center;
   padding: 30px 30px;
   border-radius: 30px;
-  margin: 20px auto; /* centered nicely vertically */
+  margin: 20px auto;
 }
 
 .home-title {
@@ -23,7 +23,7 @@
   margin: 0;
 }
 
-/* Animate between lilac and white */
+/*animate between lilac and white */
 @keyframes colorShift {
   0% {
     color: #ffffff;
@@ -40,9 +40,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap;
-  width: 100%; /* NEW: stretch inside the home box */
+  width: 100%;
 }
 
 .profile-pic {
@@ -51,14 +51,21 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0; /* NEW: image keeps its size */
+  flex-shrink: 0;
 }
 
 .home-description {
   font-size: 18px;
   color: #ffffff;
-  text-align: left; /* NEW: align paragraph text left */
-  max-width: 450px; /* NEW: keep text from stretching too much */
+  text-align: left;
+  max-width: 450px;
   line-height: 1.6;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
+
+.button-wrapper {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
