@@ -69,3 +69,41 @@
   justify-content: center;
 }
 
+
+/* Responsive for phones */
+@media (max-width: 550px) {
+  .home {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .home-content {
+    flex-direction: column; /* <<< make image go on top */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .home-title {
+    font-size: 28px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .home-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center; /* optional: center text for nicer mobile look */
+    max-width: 90%;
+  }
+
+  .button-wrapper {
+    margin-top: 20px;
+  }
+}
+
+
+

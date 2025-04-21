@@ -27,3 +27,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Responsive background fix for mobile */
+@media (max-width: 550px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* Force the background to fill viewport */
+    overflow-x: hidden;
+  }
+}

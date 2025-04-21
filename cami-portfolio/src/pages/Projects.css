@@ -100,4 +100,47 @@
     color: #de97e0;
     transform: scale(1.05);
   }
+
+  /* Responsive for phones */
+@media (max-width: 550px) {
+  .projects {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .cards-container {
+    gap: 20px;
+  }
+
+  .card {
+    flex-direction: column; /* <<< stack img on top, text below */
+    align-items: center;
+    padding: 20px;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .card-content {
+    width: 100%;
+    padding: 10px 0 0 0;
+  }
+
+  .text-content {
+    padding: 10px 0 0 0;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-link {
+    margin-top: 10px;
+  }
+}
+
   
