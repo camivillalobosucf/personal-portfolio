@@ -9,10 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 30px;
-  gap: 30px;
+  padding: 30px 30px;
   border-radius: 30px;
-  margin: 40px auto; /* centered nicely vertically */
+  margin: 20px auto; /* centered nicely vertically */
 }
 
 .home-title {
