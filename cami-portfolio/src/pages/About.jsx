@@ -32,7 +32,7 @@ function About() {
           <div className="about-gallery-image">
             <button onClick={handlePrev} className="nav-button left">←</button>
 
-            <img src={images[currentIndex]} alt={`Gallery ${currentIndex + 1}`} />
+            <img src={images[currentIndex]} alt={`Gallery ${currentIndex + 1}`} loading="lazy" />
 
             <button onClick={handleNext} className="nav-button right">→</button>
           </div>
