@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.4cde37b7.css",
+    "main.js": "/personal-portfolio/static/js/main.bc0cd327.js",
+    "static/js/453.1f631785.chunk.js": "/personal-portfolio/static/js/453.1f631785.chunk.js",
+    "static/media/about7.jpg": "/personal-portfolio/static/media/about7.96048bd8b5b37f22509a.jpg",
+    "static/media/background.jpg": "/personal-portfolio/static/media/background.dfb70e02d6d30de5d0e4.jpg",
+    "static/media/about2.jpg": "/personal-portfolio/static/media/about2.4de1c5f78c1762d9a5b0.jpg",
+    "static/media/about8.jpg": "/personal-portfolio/static/media/about8.10064415122225f9c6f1.jpg",
+    "static/media/about3.jpg": "/personal-portfolio/static/media/about3.ecbf633cfcecdd17c5ca.jpg",
+    "static/media/about1.jpg": "/personal-portfolio/static/media/about1.9e1728286341c9f6bf4f.jpg",
+    "static/media/about5.jpg": "/personal-portfolio/static/media/about5.c972983550a82aa11335.jpg",
+    "static/media/about9.jpg": "/personal-portfolio/static/media/about9.2422f15af32bc73e9149.jpg",
+    "static/media/project1_moviereview.png": "/personal-portfolio/static/media/project1_moviereview.4cbaa857c2156b1297cd.png",
+    "static/media/about6.jpg": "/personal-portfolio/static/media/about6.6c87e7beda2a8f74cc27.jpg",
+    "static/media/about4.jpg": "/personal-portfolio/static/media/about4.16feb64e976c72dd6538.jpg",
+    "static/media/camiprofilepic2.jpeg": "/personal-portfolio/static/media/camiprofilepic2.ff83acbea612c0c28be8.jpeg",
+    "static/media/about10.jpg": "/personal-portfolio/static/media/about10.5ccf6a27162e62e0ee87.jpg",
+    "static/media/project2_billingsapp.jpg": "/personal-portfolio/static/media/project2_billingsapp.2f2ef17424aae85e30cf.jpg",
+    "static/media/project3_taskio.png": "/personal-portfolio/static/media/project3_taskio.38101c9f1d837cf57f08.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.4cde37b7.css.map": "/personal-portfolio/static/css/main.4cde37b7.css.map",
+    "main.bc0cd327.js.map": "/personal-portfolio/static/js/main.bc0cd327.js.map",
+    "453.1f631785.chunk.js.map": "/personal-portfolio/static/js/453.1f631785.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cde37b7.css",
+    "static/js/main.bc0cd327.js"
+  ]
+}
