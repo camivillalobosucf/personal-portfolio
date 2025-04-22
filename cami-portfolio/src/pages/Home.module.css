@@ -14,7 +14,7 @@
   margin: 20px auto;
 }
 
-.home-title {
+.homeTitle {
   font-size: 36px;
   color: #ffffff;
   text-align: center;
@@ -23,7 +23,7 @@
   margin: 0;
 }
 
-/*animate between lilac and white */
+/* Animate between lilac and white */
 @keyframes colorShift {
   0% {
     color: #ffffff;
@@ -36,7 +36,7 @@
   }
 }
 
-.home-content {
+.homeContent {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,7 @@
   width: 100%;
 }
 
-.profile-pic {
+.profilePic {
   width: 180px;
   height: 180px;
   object-fit: cover;
@@ -54,7 +54,7 @@
   flex-shrink: 0;
 }
 
-.home-description {
+.homeDescription {
   font-size: 18px;
   color: #ffffff;
   text-align: left;
@@ -63,12 +63,24 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-.button-wrapper {
+.cardLink {
+  text-decoration: none;
+  color: #491046;
+  font-weight: bold;
+  background-color: #de97e0;
+  padding: 10px 24px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  margin: 0;
+  text-shadow: none;
+}
+
+.buttonWrapper {
   margin-top: 0;
   display: flex;
   justify-content: center;
 }
-
 
 /* Responsive for phones */
 @media (max-width: 550px) {
@@ -78,32 +90,29 @@
     margin-right: 10px;
   }
 
-  .home-content {
-    flex-direction: column; /* <<< make image go on top */
+  .homeContent {
+    flex-direction: column; /* make image go on top */
     align-items: center;
     gap: 20px;
   }
 
-  .home-title {
+  .homeTitle {
     font-size: 28px;
   }
 
-  .profile-pic {
+  .profilePic {
     width: 120px;
     height: 120px;
   }
 
-  .home-description {
+  .homeDescription {
     font-size: 16px;
     line-height: 1.5;
     text-align: center; /* optional: center text for nicer mobile look */
     max-width: 90%;
   }
 
-  .button-wrapper {
+  .buttonWrapper {
     margin-top: 20px;
   }
 }
-
-
-
