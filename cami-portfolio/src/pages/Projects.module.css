@@ -15,7 +15,7 @@
   margin-top: -10px;
 }
 
-/* Animate between lilac and white */
+
 @keyframes colorShift {
   0% {
     color: #ffffff;
@@ -114,7 +114,7 @@
   }
 
   .card {
-    flex-direction: column; /* stack img on top, text below */
+    flex-direction: column;
     align-items: center;
     padding: 20px;
   }

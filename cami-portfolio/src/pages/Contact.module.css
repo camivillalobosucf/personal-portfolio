@@ -169,7 +169,7 @@
   border-radius: 20px;
   color: #ffffff;
   text-align: center;
-  gap: 10px; /* less space between texts */
+  gap: 10px;
 }
 
 .successMessage h2 {
@@ -188,7 +188,7 @@
 }
 
 .successMessage button {
-  margin-top: 20px; /* more space above the button */
+  margin-top: 20px; 
   background-color: #de97e0;
   color: #491046;
   font-family: 'DM Sans', sans-serif;
